@@ -10,6 +10,11 @@
   --always-white: #FFFFFF;
   --border-primary: #D1D5DB;
   --border-hover: #B9C2D0;
+  --font-family: "inter", sans-serif;
+  --title: bold 24px/150% var(--font-family);
+  --label: Semibold 16px/20px var(--font-family);
+  --paragraph: Medium 16px/20px var(--font-family);
+  --link: Medium 16px/20px var(--font-family);
 }
 body {
   font-family: Arial, sans-serif;
