@@ -31,7 +31,7 @@
   }
 }
 
-.itemInput {
+.expense {
   display: flex;
   width: 627px;
   align-items: center;
@@ -40,7 +40,7 @@
   margin-bottom: 40px;
 }
 
-#itemInput {
+#expense {
   border-radius: 12px;
   width: 450px;
   height: 44px;
@@ -67,7 +67,7 @@
 
 }
 
-.itemInput button {
+.expense button {
   font: var(--text-label);
   border-radius: 12px;
   background-color: var(--color-brand);
@@ -96,7 +96,7 @@ button {
   
 }
 
-.itemInput p {
+.expense p {
   color:  var(--always-white);
   font: 400 1rem/1.25 var(--font-family);
   font-style: normal; 
