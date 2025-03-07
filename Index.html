@@ -14,21 +14,43 @@
   
 </head>
 <body>
-  <header>
-    <img src="./assets/Logo-1.png" alt="">
-    <h1>quicklist</h1>
-  </header>
-  <nav>
-    <div class="voltar">
-      <button onclick="voltar()"><- Voltar</button>
-    </div>
-    
-    <h1>Compras da semana</h1>
-    <input type="text" id="newItem" placeholder="Adicione um novo item">
-    <button onclick="addItem()">Adicionar item</button>
-    <ul id="itemList"></ul>
-  </nav>
+  <div id="container">
+    <header>
+      <img src="./assets/Logo-1.png" alt="">
+      <h1>quicklist</h1>
+    </header>
+    <main>
+      <div class="main-container">
+        <div class="back">
+          <img src="./assets/link button.svg" 
+          alt="Logo voltar" />
+          <span></span>
+        </div>
   
+        <form>
+          <h1>Compras da semana</h1>
+          <div class="itemInput">
+            <input 
+            type="text"
+            name="itemInput" 
+            id="itemInput" 
+            placeholder="Adicione um novo item">
+  
+            <button type="submit">Adicionar item</button>
+          </div>
+        
+          <ul></ul>
+        </form>
+           
+      </div>
+    </main>
+    <footer id="alert">
+      <p>
+        O item foi removido da lista
+      </p>
+    </footer>
+  </div>
+    
   <script src="script.js"></script>
 </body>
 </html>
