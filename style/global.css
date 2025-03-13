@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
 }
 
 :root {
@@ -28,7 +31,6 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
-  flex-direction: column;
   background: var(--background-primary);
   color: var(--content-secondary);
 
@@ -40,25 +42,21 @@ body {
 
 }
 
-
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centraliza os itens horizontalmente */
+  justify-content: center; /* Centraliza verticalmente, se necessário */
+  width: 100%;
+  max-width: 600px; /* Defina um limite para evitar que os elementos fiquem muito largos */
+  margin: 0 auto;
+}
 
 li {
   margin: 10px;
   cursor: pointer;
   /*list-style: none;*/
 
-  color: var(--content-secondary);
-  font-family: Inter;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 24px
-
-}
-
-.back span {
-  color: var(--color-brand);
-  
 }
 
 #alert {

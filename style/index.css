@@ -3,7 +3,7 @@
 @import url(layout.css);
 
 
-@media (width < 80em) { /* Ajuste o tamanho conforme necessário */
+@media (max-width: 768px) { /* Ajuste o tamanho conforme necessário */
   #container {
     width: 100%;
     max-width: 100%; /* Faz o container ocupar toda a tela */
@@ -36,5 +36,10 @@
   footer {
     width: 21.0rem;
     padding: 8px;
+  }
+
+  #alert {
+    display: none; /* Oculta o alerta por padrão */
+    /* Adicione outros estilos para o alerta aqui*/
   }
 }
