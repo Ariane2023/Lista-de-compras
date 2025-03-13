@@ -9,7 +9,7 @@ simples, mas poderoso, que transforma a tarefa de criar listas de compras em uma
 e intuitiva. Com uma interface limpa e funcionalidades essenciais, você nunca mais esquecerá um item 
 no supermercado!
 
-##🌟 Funcionalidades Incríveis
+## 🌟 Funcionalidades Incríveis
 - Adição Rápida de Itens: Digite o nome do item e clique em "Adicionar item". Simples assim!
 - Lista Dinâmica: Seus itens são exibidos instantaneamente, mantendo tudo organizado.
 - Marcação de Itens: Use os checkboxes para marcar os itens já comprados.
@@ -23,6 +23,7 @@ HTML: Estrutura da página web.
 CSS: Estilização e design responsivo.
 JavaScript: Interatividade e lógica do aplicativo.
 Google Fonts: Fontes personalizadas para uma melhor experiência visual.
+
 ## 🚀 Como Usar
 - Adicione Itens: Digite o nome do item no campo de texto e clique em "Adicionar item".
 - Marque Itens: Clique no checkbox ao lado do item para marcá-lo como comprado.
@@ -36,13 +37,13 @@ Google Fonts: Fontes personalizadas para uma melhor experiência visual.
 - assets/: Imagens e ícones utilizados no projeto.
   
 ## 💻 Como Executar Localmente
-- Clone este repositório.
-- Abra o arquivo index.html em seu navegador.
-- 
+1. Clone este repositório.
+2. Abra o arquivo index.html em seu navegador.
+  
 ## 🎨 Personalização
 - Estilos: Modifique o arquivo style/index.css para personalizar a aparência do aplicativo.
 - Funcionalidades: Adicione novas funcionalidades ao arquivo script.js para expandir as capacidades do Quicklist.
-- 
+  
 ## 🤝 Contribuição
 Contribuições são sempre bem-vindas! Se você encontrar um bug ou tiver uma sugestão de melhoria, sinta-se à vontade para abrir uma issue ou enviar um pull request.
 
