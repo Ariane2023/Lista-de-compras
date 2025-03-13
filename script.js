@@ -18,6 +18,12 @@ form.onsubmit = (event) => {
   // Previne o comportamento padrão de recarregar a página
   event.preventDefault()
 
+  // Verifica se o input está vazio ou contém apenas espaços em branco
+  if (!expense.value.trim()) {
+    alert("O item não pode estar vazio!"); // Mensagem de alerta
+    return; // Interrompe a execução da função
+  }
+
   const newExpense = {
     id: new Date().getTime(),
     expense: expense.value,
@@ -62,7 +68,7 @@ function expenseAdd(newExpense) {
     expenseItem.append(expenseCheckbox, expenseInfo, removeIcon)
 
     // Adiciona o item na lista.
-    expenseList.append(expenseItem)
+    expenseList.prepend(expenseItem)
 
     // Limpa o formulário para adicionar um novo item
     formClear()
