@@ -2,19 +2,39 @@
 @import url(header.css);
 @import url(layout.css);
 
-@media (max-width: >= 80em) {
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
+
+@media (width < 80em) { /* Ajuste o tamanho conforme necessário */
   #container {
     width: 100%;
-    max-width: 588PX;
-    margin: 56px auto 0px;
-    padding: 0 24px;
-    display: flex;
-    flex-direction: column;
+    max-width: 100%; /* Faz o container ocupar toda a tela */
+    padding: 16px;
+    margin-top: 20px;
+  }
+
+  .main-container {
+    max-width: 100%;
+    padding: 10px;
+  }
+
+  .expense {
+    flex-direction: column; /* Empilha os elementos no mobile */
+    width: 100%;
+  }
+
+  #expense {
+    width: 100%; /* Faz o input ocupar toda a largura disponível */
+  }
+
+  .expense button {
+    width: 100%; /* Faz o botão ocupar toda a largura */
+  }
+
+  .list {
+    width: 100%;
+  }
+
+  footer {
+    width: 21.0rem;
+    padding: 8px;
   }
 }

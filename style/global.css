@@ -32,6 +32,12 @@ body {
   background: var(--background-primary);
   color: var(--content-secondary);
 
+  font-family: "inter", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5rem;
+
 }
 
 
@@ -41,10 +47,23 @@ li {
   cursor: pointer;
   /*list-style: none;*/
 
+  color: var(--content-secondary);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px
+
 }
 
 .back span {
   color: var(--color-brand);
   
 }
+
+#alert {
+  display: none; /* Oculta o alerta por padrão */
+  /* Adicione outros estilos para o alerta aqui*/
+}
+
 
