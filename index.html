@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="./style/index.css">
+  
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+  <title>Lista de Compras</title>
+  
+</head>
+<body>
+  <div id="container">
+    <header class="desktop-only">
+      <img src="./assets/Logo-1.png" alt="">
+      <h1>quicklist</h1>
+    </header>
+    <main>
+      <div class="main-container">
+        <div class="back">
+          <img src="./assets/link button.svg" 
+          alt="Logo voltar" />
+         
+          <h1>Compras da semana</h1>
+        </div>
+  
+        <form>
+          
+          <div class="expense">
+            <input 
+            type="text"
+            id="expense" 
+            name="expense" 
+            placeholder="Adicione um novo item">
+  
+            <button type="submit">Adicionar item</button>
+          </div>
+        
+          <ul></ul>
+        </form>
+           
+      </div>
+    </main>
+    <footer id="alert">
+      <p>
+        O item foi removido da lista
+      </p>
+    </footer>
+  </div>
+    
+  <script src="script.js"></script>
+</body>
+</html>
