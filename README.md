@@ -2,12 +2,14 @@
 
 ## Bem-vindo ao Quicklist!
 
-![image](https://github.com/user-attachments/assets/cc72c049-84b7-42e3-914a-2bb12c8c3cfb)
+![image](https://github.com/user-attachments/assets/7a8fa58e-14c7-499a-9def-4b1856c1bba2)
 
 Prepare-se para revolucionar a forma como você faz suas compras! O Quicklist é um aplicativo web 
 simples, mas poderoso, que transforma a tarefa de criar listas de compras em uma experiência rápida 
 e intuitiva. Com uma interface limpa e funcionalidades essenciais, você nunca mais esquecerá um item 
 no supermercado!
+
+![image](https://github.com/user-attachments/assets/cc72c049-84b7-42e3-914a-2bb12c8c3cfb)
 
 ## 🌟 Funcionalidades Incríveis
 - Adição Rápida de Itens: Digite o nome do item e clique em "Adicionar item". Simples assim!
